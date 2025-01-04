@@ -16,7 +16,7 @@ export default class Goblin {
         goblinPosition = random;
         // this.misses += 1;
         document.querySelector(".misses").innerText =
-          `Промахи: ${this.misses}`;
+          `Количество промахов: ${this.misses}`;
       }
       if (this.misses >= 5) {
         position[random].classList.remove("goblin");
