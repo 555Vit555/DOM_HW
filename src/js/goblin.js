@@ -20,7 +20,7 @@ export default class Goblin {
       }
       if (this.misses >= 5) {
         position[random].classList.remove("goblin");
-        alert("Вы промахнулись более 4 раз GAME OVER");
+        alert("Вы промахнулись более 4 раз GAME OVER!");
         clearInterval(this.interval);
       }
     }, 1000);
