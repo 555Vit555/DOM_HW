@@ -47,10 +47,7 @@
   "jest": {
     "testEnvironment": "@bufbuild/jest-environment-jsdom"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/555Vit555/DOM_HW.git"
-  },
+  "repository": "git+https://github.com/555Vit555/DOM_HW.git",
   "description": "[![Build status](https://ci.appveyor.com/api/projects/status/hs8x5y46uvotknjo?svg=true)](https://ci.appveyor.com/project/555Vit555/dom-hw)",
   "keywords": [],
   "bugs": {
