@@ -16,11 +16,11 @@ export default class Goblin {
         goblinPosition = random;
         // this.misses += 1;
         document.querySelector(".misses").innerText =
-          `Количество пропущенных: ${this.misses}`;
+          `Промахи: ${this.misses}`;
       }
       if (this.misses >= 5) {
         position[random].classList.remove("goblin");
-        alert("Игра окончена! Вы промахнулись более 4 раз");
+        alert("Вы промахнулись более 4 раз GAME OVER");
         clearInterval(this.interval);
       }
     }, 1000);
@@ -38,7 +38,7 @@ export default class Goblin {
         scoreCounter.innerText = `Количество попаданий: ${this.score}`;
       } else {
         this.misses += 1;
-        missesCounter.innerText = `Количество пропущенных: ${this.misses}`;
+        missesCounter.innerText = `Количество промахов: ${this.misses}`;
       }
     });
   }
