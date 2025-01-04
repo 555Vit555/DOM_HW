@@ -11,7 +11,7 @@
     "coverage": "jest --coverage",
     "serve": "live-server ./src"
   },
-  "author": "vladvolkov71",
+  "author": "vit555",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
@@ -33,9 +33,9 @@
     "live-server": "^1.1.0",
     "mini-css-extract-plugin": "^2.8.1",
     "style-loader": "^3.3.4",
-    "webpack": "^5.91.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
@@ -46,5 +46,15 @@
   },
   "jest": {
     "testEnvironment": "@bufbuild/jest-environment-jsdom"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/555Vit555/DOM_HW.git"
+  },
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/hs8x5y46uvotknjo?svg=true)](https://ci.appveyor.com/project/555Vit555/dom-hw)",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/555Vit555/DOM_HW/issues"
+  },
+  "homepage": "https://github.com/555Vit555/DOM_HW#readme"
 }
